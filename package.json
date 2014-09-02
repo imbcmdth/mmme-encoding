@@ -1,0 +1,29 @@
+{
+  "name": "mmme-encoding",
+  "description": "Simple conversions between floating point XYZ or RGB and XYZE or RGBE encodings.",
+  "version": "0.5.0",
+  "homepage": "https://github.com/imbcmdth/mmme-encoding",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imbcmdth/mmme-encoding.git"
+  },
+  "author": {
+    "name": "Jon-Carlos Rivera",
+    "email": "jon.carlos.rivera@gmail.com",
+    "url": "http://jon-carlos.com"
+  },
+  "keywords": [
+    "high dynamic range",
+    "floating point",
+    "encoding",
+    "rgb",
+    "xyz"
+  ],
+  "devDependencies": {
+    "mocha": "1.8.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "license": "MIT"
+}
