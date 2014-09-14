@@ -1,7 +1,7 @@
 {
   "name": "mmme-encoding",
   "description": "Simple conversions between floating point XYZ or RGB and XYZE or RGBE encodings.",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/imbcmdth/mmme-encoding",
   "repository": {
     "type": "git",

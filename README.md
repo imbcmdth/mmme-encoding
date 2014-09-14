@@ -33,11 +33,11 @@ var mmmeEncoding = require('mmme-encoding');
 
 var rgbColor = [1.2, 22.5, 1.9];
 
-var rgbeColor = mmmeEncoding.fromFloats.apply(null, rgbColor);
+var rgbeColor = mmmeEncoding.fromFloats(rgbColor);
 
 rgbeColor; //=> [ 4, 90, 7, 134 ]
 
-mmmeEncoding.toFloats.apply(null, rgbeColor); //=> [ 1, 22.5, 1.75 ]
+mmmeEncoding.toFloats(rgbeColor); //=> [ 1, 22.5, 1.75 ]
 
 //- Notice that the decoded values are close but NOT exactly the original values
 //- This is a natural limitation of trying to store 24 bytes of data in just 4 bytes
@@ -45,6 +45,7 @@ mmmeEncoding.toFloats.apply(null, rgbeColor); //=> [ 1, 22.5, 1.75 ]
 
 ## Versions
 
+* [v0.5.1](https://github.com/imbcmdth/mmme-encoding/archive/v0.5.1.zip) Parameters are now arrays
 * [v0.5.0](https://github.com/imbcmdth/mmme-encoding/archive/v0.5.0.zip) Initial public release
 
 ## License - MIT
